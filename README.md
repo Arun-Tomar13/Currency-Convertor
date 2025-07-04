@@ -39,7 +39,7 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 ## 📂 Folder Structure
 
 currency-converter/
-├── public/ # Static files (favicon, etc.)
+├── public/ # Static files (favicon, etc.) <br>
 ├── src/
 │ ├── components/
 │ │ └── InputBox.jsx # Reusable currency input component
