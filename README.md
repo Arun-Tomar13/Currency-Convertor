@@ -1,12 +1,89 @@
-# React + Vite
+# 🌍 Currency Converter App 💱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **currency converter web app** built with **React.js**, **Tailwind CSS**, and real-time exchange rates powered by the [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api). Convert between any two currencies instantly with a clean user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Currency Converter Screenshot 1](./images/preview1.png)  
+*Home page with USD to INR conversion*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Currency Converter Screenshot 2](./images/preview2.png)  
+*Swap feature with dynamic input handling*
+
+> 📝 Replace the image paths with your actual image file paths or hosted URLs.
+
+---
+
+## 🚀 Features
+
+- 🔁 Convert between multiple currencies
+- 🔄 Swap currencies with one click
+- 🧠 Smart state handling using React Hooks
+- 🎨 Styled with Tailwind CSS
+- ⚡ Fast and lightweight (Vite-powered)
+
+---
+
+## 🧩 Tech Stack
+
+- **React.js** – Frontend library
+- **Vite** – Fast dev environment and build tool
+- **Tailwind CSS** – Utility-first CSS framework
+- **Fawaz Ahmed Currency API** – Real-time exchange rates
+- **Custom React Hook** – `useCurrencyInfo` for API logic
+
+---
+
+## 📂 Folder Structure
+
+currency-converter/
+│
+├── public/ # Static files
+├── src/
+│ ├── components/
+│ │ └── InputBox.jsx # Currency input box component
+│ ├── hooks/
+│ │ └── useCurrencyInfo.js # Custom currency API hook
+│ ├── App.jsx # Main App logic
+│ ├── App.css # Tailwind and global styles
+│ └── main.jsx # Entry point
+│
+├── .gitignore
+├── index.html
+└── package.json
+
+
+---
+
+## 📦 Getting Started
+
+### 🔧 Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/currency-converter.git
+cd currency-converter
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+🧪 API Reference
+Currency data is fetched from
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currency}.json
+
+🛡 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Made with ❤️ by Arun Tomar
+
+Feel free to reach out for feedback or collaboration!
