@@ -4,6 +4,7 @@
   A sleek and modern currency converter built with <b>React.js</b>, <b>Tailwind CSS</b>, and real-time rates from the <a href="https://github.com/fawazahmed0/currency-api" target="_blank">Fawaz Ahmed Currency API</a>.
 </p>
 
+
 ## 📸 Preview
 
 ![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/blob/main/public/Preview1.png?raw=true) 
