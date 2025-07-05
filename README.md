@@ -36,7 +36,7 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 ---
 
-## 📂 Folder Structure
+<details> <summary>📁 Project Structure</summary>
 currency-converter/
 ├── public/                     # Static files (favicon, etc.)
 ├── src/
@@ -51,6 +51,7 @@ currency-converter/
 ├── index.html                  # HTML template for Vite
 ├── package.json                # Project dependencies and scripts
 └── README.md                   # Project documentation
+</details>
 
 
 
