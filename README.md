@@ -6,11 +6,11 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 ## 📸 Preview
 
-![Currency Converter Screenshot 1](./Preview .png)  
+![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/public/Preview1.png?raw=true) 
 *Home page with USD to INR conversion*
 
-![Currency Converter Screenshot 2](./images/preview2.png)  
-*Swap feature with dynamic input handling*
+![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/public/Preview2.png?raw=true) 
+*Home page with BTC to EUR conversion*
 
 > 📝 Replace the image paths with your actual image file paths or hosted URLs.
 
@@ -34,6 +34,26 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 - **Fawaz Ahmed Currency API** – Real-time exchange rates
 - **Custom React Hook** – `useCurrencyInfo` for API logic
 
+---
+
+## 📁 Project Structure
+
+```
+currency-converter/
+├── public/ # Static files (favicon, etc.)
+├── src/
+│ ├── components/
+│ │ └── InputBox.jsx # Reusable currency input component
+│ ├── hooks/
+│ │ └── useCurrencyInfo.js # Custom hook to fetch exchange rates
+│ ├── App.jsx # Main application logic
+│ ├── App.css # Tailwind & custom global styles
+│ └── main.jsx # App entry point
+├── .gitignore # Files to ignore in git
+├── index.html # HTML template for Vite
+├── package.json # Project dependencies and scripts
+└── README.md # Project documentation
+```
 ---
 
 ## 📦 Getting Started
