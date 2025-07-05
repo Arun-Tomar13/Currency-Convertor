@@ -36,28 +36,6 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 ---
 
-<details> <summary>📁 Project Structure</summary>
-currency-converter/
-├── public/                     # Static files (favicon, etc.)
-├── src/
-│   ├── components/
-│   │   └── InputBox.jsx        # Reusable currency input component
-│   ├── hooks/
-│   │   └── useCurrencyInfo.js  # Custom hook to fetch exchange rates
-│   ├── App.jsx                 # Main application logic
-│   ├── App.css                 # Tailwind & custom global styles
-│   └── main.jsx                # App entry point
-├── .gitignore                  # Files to ignore in git
-├── index.html                  # HTML template for Vite
-├── package.json                # Project dependencies and scripts
-└── README.md                   # Project documentation
-</details>
-
-
-
-
----
-
 ## 📦 Getting Started
 
 ### 🔧 Prerequisites
