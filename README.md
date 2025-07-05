@@ -6,10 +6,12 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 ## 📸 Preview
 
-![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/public/Preview1.png?raw=true) 
+![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/blob/main/public/Preview1.png?raw=true) 
+
 *Home page with USD to INR conversion*
 
-![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/public/Preview2.png?raw=true) 
+![Currency Converter Screenshot 1](https://github.com/Arun-Tomar13/Currency-Convertor/blob/main/public/Preview2.png?raw=true) 
+
 *Home page with BTC to EUR conversion*
 
 > 📝 Replace the image paths with your actual image file paths or hosted URLs.
@@ -76,10 +78,15 @@ npm install
 npm run dev
 
 ```
+---
 
 🧪 API Reference
 Currency data is fetched from
+```
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currency}.json
+```
+
+---
 
 🛡 License
 This project is licensed under the MIT License.
