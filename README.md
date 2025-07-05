@@ -1,7 +1,8 @@
-# 🌍 Currency Converter App 💱
+<h1 align="center">🌍 Currency Converter App 💱</h1>
 
-A modern, responsive **currency converter web app** built with **React.js**, **Tailwind CSS**, and real-time exchange rates powered by the [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api). Convert between any two currencies instantly with a clean user interface.
-
+<p align="center">
+  A sleek and modern currency converter built with <b>React.js</b>, <b>Tailwind CSS</b>, and real-time rates from the <a href="https://github.com/fawazahmed0/currency-api" target="_blank">Fawaz Ahmed Currency API</a>.
+</p>
 ---
 
 ## 📸 Preview
@@ -14,7 +15,6 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 *Home page with BTC to EUR conversion*
 
-> 📝 Replace the image paths with your actual image file paths or hosted URLs.
 
 ---
 
