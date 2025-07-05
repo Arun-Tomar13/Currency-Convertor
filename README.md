@@ -6,7 +6,7 @@ A modern, responsive **currency converter web app** built with **React.js**, **T
 
 ## 📸 Preview
 
-![Currency Converter Screenshot 1](./images/preview1.png)  
+![Currency Converter Screenshot 1](./Preview .png)  
 *Home page with USD to INR conversion*
 
 ![Currency Converter Screenshot 2](./images/preview2.png)  
@@ -54,6 +54,8 @@ npm install
 
 # Start the development server
 npm run dev
+
+```
 
 🧪 API Reference
 Currency data is fetched from
